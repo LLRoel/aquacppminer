@@ -12,6 +12,8 @@ elif [ "$1" = 'debug' ]; then
 	exit 0
 elif [ "$1" = 'help' ]; then
 	cat /README.txt
+	cat /usr/local/bin/docker-entrypoint.sh
+	exit 0
 else
 	PARAMS="$@"
 fi
