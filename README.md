@@ -1,5 +1,6 @@
 # Aquacppminer
-docker run -itd aquaminer "parameters"
+# docker run -itd aquaminer "parameters"
+
 [Aquachain](https://aquachain.github.io/) C++ optimized miner.
 
 ### Versions
