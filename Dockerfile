@@ -11,7 +11,7 @@ RUN cd aquacppminer \
     && mv rel/v1.1/* /usr/local/bin/
 
 COPY docker-entrypoint.sh /usr/local/bin/
-COPY README.txt /
+COPY README.md /README.txt
 
 ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["help"]
